@@ -1,0 +1,24 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Newsletter from "../components/Newsletter";
+import User from "../components/User.svelte";
+---
+
+<Layout title="Content dynamic">
+  <h1>Subscribe</h1>
+  <p style="height: 70vh">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos veniam
+    repellendus animi nam rem qui mollitia perferendis dignissimos saepe quam
+    voluptate dolorum eum dolorem dolor iste necessitatibus iusto vel, modi et
+    reprehenderit pariatur suscipit eius. Praesentium labore porro accusantium
+    dolore optio voluptate illo cumque facilis deleniti, iusto saepe totam
+    nostrum dolores atque ipsam voluptatibus ipsa laudantium magnam molestiae
+    corporis autem delectus quo. Voluptate minus temporibus aspernatur! A nisi
+    maxime sunt consequatur error fuga dicta laboriosam eaque, adipisci
+    excepturi aut, ipsa natus officiis vel deleniti ex possimus maiores
+    perspiciatis reprehenderit. Deleniti libero odio voluptatibus consequatur
+    commodi. Iure incidunt cum esse maxime.
+  </p>
+  <Newsletter client:visible />
+  <User client:visible />
+</Layout>
